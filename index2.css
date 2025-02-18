@@ -12,23 +12,25 @@ body {
   width: 50vh;
   border-radius: 10px;
   background-color: #1f1f1f;
-  width: 90%;
+  width: 80%;
   letter-spacing: 1px;
+  margin: 0;
 }
 @media (min-width: 768px) {
   .container {
     width: 40%;
-    transform: translate(-50%, 5%);
+    transform: translate(-50%, 3%);
   }
 }
 @media (max-width: 767px) {
   .container {
-    transform: translate(-50%, 5%);
+    transform: translate(-50%, 2%);
   }
 }
 img {
-  width: 100px;
-  border-radius: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 .img {
@@ -36,10 +38,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   line-height: 7px;
 }
 h1 {
