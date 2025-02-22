@@ -21,8 +21,8 @@ body {
 }
 @media (max-width: 767px) {
   .container {
-    width: 97%;
-    margin: 1% 0;
+    width: 96%;
+    margin: 2% 0;
   }
 }
 img {
@@ -71,6 +71,6 @@ a {
   text-decoration: none;
   color: white;
 }
-.active {
-  background-color: rgb(71, 100, 90);
+li:hover {
+  background-color: #7b8e4c;
 }
