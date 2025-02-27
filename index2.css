@@ -22,7 +22,7 @@ body {
 }
 @media (max-width: 767px) {
   .container {
-    width: 98%;
+    width: 99%;
   }
 }
 img {
@@ -73,4 +73,17 @@ a {
 }
 li:hover {
   background-color: #7b8e4c;
+  animation-name: color;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes color {
+  0%{
+    background-color: #333333;
+  }
+  100%{
+    background-color: #7b8e4c;
+  }
 }
