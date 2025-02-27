@@ -4,6 +4,8 @@ body {
   color: white;
   display: flex;
   justify-content: center;
+  padding:8px;
+  transition: .7s;
 }
 .container {
   border-radius: 10px;
@@ -11,18 +13,16 @@ body {
   width: 90%;
   letter-spacing: 1px;
   margin: auto;
-  max-height: 50%;
+  padding: 20px 0 10px;
 }
 @media (min-width: 768px) {
   .container {
     width: 40%;
-    margin: 2% 0;
   }
 }
 @media (max-width: 767px) {
   .container {
-    width: 96%;
-    margin: 2% 0;
+    width: 98%;
   }
 }
 img {
