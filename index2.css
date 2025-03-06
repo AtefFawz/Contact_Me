@@ -4,7 +4,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  padding:7px;
+  padding:7px 2px;
 }
 *{
   transition: .7s;
@@ -45,14 +45,14 @@ img:hover{
 cursor: pointer;
 }
 h1 {
-  font-size: 23px;
+  font-size: 25px;
 }
 h2 {
-  font-size: 16px;
+  font-size: 19px;
   color: #7b8e4c;
 }
 P {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 20px;
 }
 ul {
